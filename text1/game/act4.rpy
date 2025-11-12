@@ -83,16 +83,14 @@ label continue_guidance:
     "最终，一杯呈现出温暖琥珀色、仿佛内里蕴藏着光晕的'特调'由林晓亲手放在了阿哲面前。"
 
     show lin guiding at left
+    show mo at right
     lin "请用。当咖啡的香气环绕你时，不妨闭上眼，倾听自己内心最真实的声音。它会指引你。"
 
     show a_zhe thinking at center
     "阿哲看着这杯充满善意的咖啡，又看了看林晓真诚的眼睛，最终迟疑地闭上了眼，端起了杯子。"
 
     play sound "audio/memory_glow_soft.mp3"
-    show memory_soft_glow with dissolve
     "在林晓的引导下，阿哲仿佛也进入了一段短暂的内心平静。"
-    
-    hide memory_soft_glow with dissolve
 
     show a_zhe relaxed at center
     "片刻后，阿哲睁开眼，虽然迷茫未完全散去，但紧绷的神情舒缓了许多，他长长地舒了一口气。"
@@ -136,7 +134,7 @@ label continue_guidance:
     show cg lin_future with dissolve
     "林晓站在'心语叙事馆'的窗前，眼神明亮而坚定地望着远方。"
     "他的书桌上，放着一本打开的旅行计划册和一张世界地图，几个地点被清晰地标记出来。"
-    "他的手中，轻轻握着小光的照片。"
+    "地图的一侧，小光的照片静静躺着。"
     pause 2.0
 
     # 最终定格画面

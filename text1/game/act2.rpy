@@ -78,7 +78,11 @@ label act_two:
 
     hide su with moveoutright
 
+    show lin at left with dissolve
+
     lin "她……好像整个人都在发光。"
+
+    show mo at right with dissolve
 
     mo "因为她找回了属于自己的星辰。看，林晓，你已经能帮助别人了。"
 
@@ -155,6 +159,8 @@ label grandpa_memory:
     scene bg narrative_hall_day with fade
     play music piano fadein 1.0
     show chen kind at center with dissolve
+    show lin at left with dissolve
+    show mo at right with dissolve
 
     chen "看见了……我看得清清楚楚！她穿的是淡蓝色的碎花旗袍，领子上绣着小小的茉莉……她笑了，右边脸上有个浅浅的梨涡……她先对我说的话……谢谢！谢谢你们！"
 

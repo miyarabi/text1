@@ -50,7 +50,7 @@ label firm_decision:
     mo "我明白了。那么，这次将由我亲自为你引导。这杯'心语'，将会是最真实，也最苦涩的。"
 
     # 深潜记忆之海
-    show mo making_coffee with dissolve
+    show mo making_coffee_blue with dissolve
     "墨尘没有使用常见的咖啡器具，而是取出了一个古朴的陶罐和一个小巧的陶杯。"
     "他研磨咖啡豆的动作缓慢而沉重，仿佛每一次研磨都在调动某种力量。"
     "最终倒入杯中的液体，并非星辰般绚烂，而是如同深夜大海般的深邃墨蓝，几乎不透光。"
@@ -76,9 +76,6 @@ label deep_memory:
     
     "阳光灿烂，绿草如茵。色彩饱和明亮，如同最美的梦境。"
     
-    show young_lin at left with dissolve
-    show young_guang at right with dissolve
-    
     "小林晓和小光奔跑着，风筝在高空翱翔。小光的笑容比阳光还耀眼。"
     
     young_guang "晓！快看！我们的风筝飞得最高！"
@@ -93,9 +90,6 @@ label deep_memory:
     "阳光依旧，但色彩开始微微泛黄、失真，仿佛旧照片开始褪色。"
     "小光的脸色有些苍白，奔跑时偶尔会咳嗽。"
     
-    show young_lin concerned at left
-    show young_guang pale at right
-    
     young_lin "小光，你没事吧？脸色好白。"
     young_guang "没事！就是有点感冒！我们的约定，你可别忘了！"
     
@@ -104,9 +98,6 @@ label deep_memory:
     play music "audio/piano_sad_slow.mp3" fadein 2.0
     
     "画面色调急剧转为冷色，以惨白和淡蓝为主。"
-    
-    show young_lin crying at left
-    show young_guang sick at right
     
     "小林晓趴在病床前。床上的小光戴着氧气面罩，瘦弱得几乎被白色的被子淹没。"
     

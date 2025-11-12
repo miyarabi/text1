@@ -48,6 +48,7 @@ image mo comforting = "mo_comforting.png"
 image mo warm_smile = "mo_warm_smile.png"
 image mo approving = "mo_approving.png"
 image mo making_coffee = "mo_making_coffee.png"
+image mo making_coffee_blue = "mo_making_coffee_blue.png"
 
 ## 其他角色
 image su anxious = "su_anxious.png"
